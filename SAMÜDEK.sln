@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAMÜDEK", "SAMÜDEK\SAMÜDEK.csproj", "{C47A999B-3D68-415A-A81B-3C9C7AA0A55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAMÜDEK_TESTS", "SAMÜDEK_TESTS\SAMÜDEK_TESTS.csproj", "{427C2317-6DE8-447D-8FC3-78B20DCE1FB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C47A999B-3D68-415A-A81B-3C9C7AA0A55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47A999B-3D68-415A-A81B-3C9C7AA0A55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47A999B-3D68-415A-A81B-3C9C7AA0A55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47A999B-3D68-415A-A81B-3C9C7AA0A55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427C2317-6DE8-447D-8FC3-78B20DCE1FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427C2317-6DE8-447D-8FC3-78B20DCE1FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427C2317-6DE8-447D-8FC3-78B20DCE1FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427C2317-6DE8-447D-8FC3-78B20DCE1FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760B3FE8-84DD-47A5-9219-A7C341D7D995}
+	EndGlobalSection
+EndGlobal
