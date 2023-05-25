@@ -47,6 +47,7 @@
             // 
             // combodonem
             // 
+            this.combodonem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.combodonem.FormattingEnabled = true;
             this.combodonem.Items.AddRange(new object[] {
             "2020-2021",
@@ -55,7 +56,7 @@
             this.combodonem.Location = new System.Drawing.Point(316, 231);
             this.combodonem.Margin = new System.Windows.Forms.Padding(2);
             this.combodonem.Name = "combodonem";
-            this.combodonem.Size = new System.Drawing.Size(171, 21);
+            this.combodonem.Size = new System.Drawing.Size(171, 23);
             this.combodonem.TabIndex = 13;
             // 
             // label3
@@ -82,6 +83,7 @@
             // 
             // comboders
             // 
+            this.comboders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboders.FormattingEnabled = true;
             this.comboders.Items.AddRange(new object[] {
             "Algoritma Tasarımı",
@@ -90,7 +92,7 @@
             this.comboders.Location = new System.Drawing.Point(316, 129);
             this.comboders.Margin = new System.Windows.Forms.Padding(2);
             this.comboders.Name = "comboders";
-            this.comboders.Size = new System.Drawing.Size(171, 21);
+            this.comboders.Size = new System.Drawing.Size(171, 23);
             this.comboders.TabIndex = 10;
             // 
             // buttonexit
@@ -130,6 +132,7 @@
             // 
             // combotur
             // 
+            this.combotur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.combotur.FormattingEnabled = true;
             this.combotur.Items.AddRange(new object[] {
             "Vize",
@@ -138,7 +141,7 @@
             this.combotur.Location = new System.Drawing.Point(316, 325);
             this.combotur.Margin = new System.Windows.Forms.Padding(2);
             this.combotur.Name = "combotur";
-            this.combotur.Size = new System.Drawing.Size(171, 21);
+            this.combotur.Size = new System.Drawing.Size(171, 23);
             this.combotur.TabIndex = 17;
             // 
             // label4
@@ -163,6 +166,7 @@
             this.buttonkaydet.TabIndex = 19;
             this.buttonkaydet.Text = "Kaydet";
             this.buttonkaydet.UseVisualStyleBackColor = false;
+            this.buttonkaydet.Click += new System.EventHandler(this.buttonkaydet_Click);
             // 
             // buttonsec
             // 
@@ -179,6 +183,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "En Başarılı",
@@ -187,7 +192,7 @@
             this.comboBox1.Location = new System.Drawing.Point(316, 413);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(171, 21);
+            this.comboBox1.Size = new System.Drawing.Size(171, 23);
             this.comboBox1.TabIndex = 23;
             // 
             // label5

@@ -24,10 +24,19 @@ namespace SAMÜDEK
             this.Close();
         }
 
+        OpenFileDialog openFileDialog = new OpenFileDialog();
         private void buttonsec_Click(object sender, EventArgs e)
         {
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.ShowDialog();
+            openFileDialog.ShowDialog();
+        }
+
+        private void buttonkaydet_Click(object sender, EventArgs e)
+        {
+            //if (openFileDialog.ShowDialog()==DialogResult.OK)
+            //{
+            //    MessageBox.Show($"{openFileDialog.FileName} adlı PDF dosyası yüklendi.");
+            //}
+            MessageBox.Show($"{openFileDialog.FileName} adlı PDF dosyası yüklendi.");
         }
     }
 }
